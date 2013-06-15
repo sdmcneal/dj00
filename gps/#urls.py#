@@ -1,0 +1,12 @@
+
+
+rom django.conf.urls import patterns, url
+from gps.views import TrackCreate, TrackUpdate, TrackDelete
+from gps import views
+
+urlpatterns = patterns('',
+                       url(r'^$',views.index,name='index'),
+                       url(r'^entry/$',TrackCreate.as_view(),name='track_add'),
+                       url(r'^showform/$',views.entry,name='entry')
+                       )
+

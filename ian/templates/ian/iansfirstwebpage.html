@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ian's First Webpage</title>
+    {% load staticfiles %}
+    <link href="{% static "gps/modern.css" %}" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="metrouicss">
+
+<h2>Input Data</h2>
+
+
+    	<script language="javascript">
+			function calculate_area() {
+				// get radius from web page
+				
+				var	radius = parseFloat(document.getElementById('radius').value);
+				//define pi
+				var pi = Math.PI;
+				var area = pi * Math.pow(radius,2);
+				document.getElementById('area').value = area;
+			}
+		</script>
+    	<h3>Area of circle</h3>
+		<div class="span5">Radius:
+			<div class="input-control text">
+			<input type="text" id="radius" name="radius"/>
+			<button class="btn-clear"></button>
+		    </div>
+		</div>
+		<div class="span5">Area:
+		    <div class="input-control text">
+		    <input type="text" id="area" name="area"/>
+		    <button class="btn-clear"></button>
+		
+		</div>
+        <input type="button" value="Calculate Area" onclick="calculate_area();"/>
+	</div>	
+    
+
+    <h3>Volume of cube</h3>
+    	<script language="javascript">
+			function calculate_cube_volume() {
+				
+				var length = parseFloat(document.getElementById('length').value);
+				
+				var width = parseFloat(document.getElementById('width').value);
+				
+				var height = parseFloat(document.getElementById('height').value);
+				
+				var volume = length*width*height; document.getElementById('cube_volume').value=volume;
+				
+			}
+		</script>
+		<div class="span5">Length:
+			<div class="input-control text">
+			<input type="text" id="length"/>
+			<button class="btn-clear"></button>
+		    </div>
+		</div>
+        <div class="span5">Width:
+			<div class="input-control text">
+			<input type="text" id="width"/>
+			<button class="btn-clear"></button>
+		    </div>
+		</div>
+        <div class="span5">Height:
+			<div class="input-control text">
+			<input type="text" id="height"/>
+			<button class="btn-clear"></button>
+		    </div>
+		</div>
+		<div class="span5">Cube volume:
+		    <div class="input-control text">
+		    <input type="text" id="cube_volume" />
+		    <button class="btn-clear"></button>
+		
+		</div>
+		<input type="button" value="Calculate volume" onclick="calculate_cube_volume();"/>
+
+		<h3>Flash Card Multiplication Table</h3>
+    	<script language="javascript">
+			// global variables - these can be accessed from any function
+			var first_number =0;
+			var second_number=0;
+			var correct_answer=0;
+			
+			function make_new_cards() {
+				
+				var MAX_NUMBER = 12;
+				
+				first_number = 0; // to do: replace with function to put random number
+				second_number = 0;// to do: replace with function to put random number
+				correct_answer = 0;// to do: calculate right answer but don't put it anywhere
+				
+				// copy numbers to text fields
+				
+			}
+			function check_answer() {
+				product = parseInt(document.getElementById('product').value);
+				
+				if (product==correct_answer) {
+					alert("Correct!");
+				} else {
+					alert("Sorry.  That's not right.");
+				}
+			
+			}
+		</script>
+        <input type="button" value="Make new cards" onclick="make_new_cards();"/>
+		
+        <div class="span5">
+			<div class="input-control text">
+			<input type="text" id="first_number"/>
+			
+		    </div>x
+			<div class="input-control text">
+			<input type="text" id="second_number"/>
+			
+		    </div>=
+            <div class="input-control text">
+			<input type="text" id="product"/>
+			
+		    </div>
+            <input type="button" value="Check answer" onclick="check_answer();"/>
+		</div>
+        
+
+</body>
+</html>

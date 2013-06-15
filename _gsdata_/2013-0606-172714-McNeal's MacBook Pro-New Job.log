@@ -1,0 +1,109 @@
+2013-06-06 17:27:18: ----- Job 'New Job': ANALYSIS started by User on computer 'McNeal's MacBook Pro' (GoodSync 3.7.0.0 x86_64 on MacOS Version 10.8.3 (Build 12D78)) -----
+2013-06-06 17:27:18: New Job: /Users/mbp/Dropbox/dev/dj00 <-> sftp://192.168.4.112/var/www/django/dj00, SavePrevVers, CleanupPrevVers=30d, CleanupOldGens=24m, TmpDest, EstReq, CopyLocked, NoWaitForLocks, DetectMovesAndRenames, DetectFolderMoves, FileLinksDrill, Reconnect=3, ChangeLimit=10
+2013-06-06 17:27:18: Exclude Hidden, Exclude System, Include *.py|*.html|*.jpg Exclude /Album Artwork|licens*.rfo|cache.rfo|mru.rfo|mpp*.rfo|RoboForm Online Account.rfp|name *._gstmp|/System Volume Information|Thumbs.db|.DS_Store 
+2013-06-06 17:27:18: Left: Reading State File /Users/mbp/Dropbox/dev/dj00/_gsdata_/_file_state._gs
+2013-06-06 17:27:18: Left: State file does not exist: /Users/mbp/Dropbox/dev/dj00/_gsdata_/_file_state._gs
+2013-06-06 17:27:18: Left: No State File found, New State will be built
+2013-06-06 17:27:18: Left: Files: 26 (excluded 26). Folders: 8 (excluded 1). /dev/disk1 HFS, Free: 78714M, Total: 238878M
+2013-06-06 17:27:18: Right: Reading State File sftp://192.168.4.112/var/www/django/dj00/_gsdata_/_file_state._gs
+2013-06-06 17:27:18: Right: State file does not exist: sftp://192.168.4.112/var/www/django/dj00/_gsdata_/_file_state._gs
+2013-06-06 17:27:18: Right: No State File found, New State will be built
+2013-06-06 17:27:18: Right: Files: 26 (excluded 26). Folders: 8 (excluded 0). SSH-2.0-OpenSSH_6.1p1 Debian-4
+2013-06-06 17:27:18: Two-side filters excluded 9 items
+2013-06-06 17:27:18: /dj00/__init__.py: Conflict: New files that differ
+2013-06-06 17:27:18: /dj00/settings.py: Conflict: New files that differ
+2013-06-06 17:27:18: /dj00/urls.py: Conflict: New files that differ
+2013-06-06 17:27:18: /dj00/views.py: Conflict: New files that differ
+2013-06-06 17:27:18: /dj00/wsgi.py: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/__init__.py: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/form.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/models.py: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195307_1070.jpg: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195807_1071.jpg: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200307_1072.jpg: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200807_1073.jpg: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/static/gps/image.jpg: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/templates/gps/404.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/templates/gps/bingmaps.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/templates/gps/cc.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/templates/gps/console.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/templates/gps/index.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/templates/gps/login.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/templates/gps/map.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/templates/gps/test.html: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/tests.py: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/urls.py: Conflict: New files that differ
+2013-06-06 17:27:18: /gps/views.py: Conflict: New files that differ
+2013-06-06 17:27:18: /manage.py: Conflict: New files that differ
+2013-06-06 17:27:18: /urls.py: Conflict: New files that differ
+2013-06-06 17:27:18: On disk file:// space required for sync is 0, you have 78714M
+2013-06-06 17:27:18: On disk sftp://192.168.4.112 space required for sync is 0, you have 9223372036854M
+2013-06-06 17:27:18: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2013-06-06 17:27:18: Changes: 26, Conflicts: 26, CopyTime: 0, CopyState: 0/6, Errors: 0
+2013-06-06 17:27:18: ----- Analysis Completed. Time 00:00:04, Speed: 15 files/s -----
+2013-06-06 17:27:18: 
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /dj00/__init__.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /dj00/settings.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /dj00/urls.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /dj00/views.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /dj00/wsgi.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/__init__.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/form.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/models.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195307_1070.jpg
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195807_1071.jpg
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200307_1072.jpg
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200807_1073.jpg
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/static/gps/image.jpg
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/templates/gps/404.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/templates/gps/bingmaps.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/templates/gps/cc.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/templates/gps/console.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/templates/gps/index.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/templates/gps/login.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/templates/gps/map.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/templates/gps/test.html
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/tests.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/urls.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /gps/views.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /manage.py
+2013-06-06 17:27:47: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /urls.py
+2013-06-06 17:28:14: ===== Job 'New Job': SYNC started by User on computer 'McNeal's MacBook Pro' =====
+2013-06-06 17:28:14: New Job: /Users/mbp/Dropbox/dev/dj00 <-> sftp://192.168.4.112/var/www/django/dj00, SavePrevVers, CleanupPrevVers=30d, CleanupOldGens=24m, TmpDest, EstReq, CopyLocked, NoWaitForLocks, DetectMovesAndRenames, DetectFolderMoves, FileLinksDrill, Reconnect=3, ChangeLimit=10
+2013-06-06 17:28:15: Sync State Merge: /dj00
+2013-06-06 17:28:15: Sync State Merge: /gps/static/gps
+2013-06-06 17:28:15: Sync State Merge: /gps/static
+2013-06-06 17:28:15: Sync State Merge: /gps/templates/gps
+2013-06-06 17:28:15: Sync State Merge: /gps/templates
+2013-06-06 17:28:15: Sync State Merge: /gps
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/dj00/__init__.py' -> 'sftp://192.168.4.112/var/www/django/dj00/dj00/__init__.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/dj00/settings.py' -> 'sftp://192.168.4.112/var/www/django/dj00/dj00/settings.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/dj00/urls.py' -> 'sftp://192.168.4.112/var/www/django/dj00/dj00/urls.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/dj00/views.py' -> 'sftp://192.168.4.112/var/www/django/dj00/dj00/views.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/dj00/wsgi.py' -> 'sftp://192.168.4.112/var/www/django/dj00/dj00/wsgi.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/__init__.py' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/__init__.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/form.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/form.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/models.py' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/models.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195307_1070.jpg' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195307_1070.jpg' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195807_1071.jpg' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195807_1071.jpg' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200307_1072.jpg' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200307_1072.jpg' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200807_1073.jpg' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200807_1073.jpg' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/static/gps/image.jpg' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/static/gps/image.jpg' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/templates/gps/404.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/templates/gps/404.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/templates/gps/bingmaps.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/templates/gps/bingmaps.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/templates/gps/cc.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/templates/gps/cc.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/templates/gps/console.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/templates/gps/console.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/templates/gps/index.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/templates/gps/index.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/templates/gps/login.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/templates/gps/login.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/templates/gps/map.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/templates/gps/map.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/templates/gps/test.html' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/templates/gps/test.html' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/tests.py' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/tests.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/urls.py' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/urls.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/gps/views.py' -> 'sftp://192.168.4.112/var/www/django/dj00/gps/views.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/manage.py' -> 'sftp://192.168.4.112/var/www/django/dj00/manage.py' (User Action)
+2013-06-06 17:28:15: Copy Over '/Users/mbp/Dropbox/dev/dj00/urls.py' -> 'sftp://192.168.4.112/var/www/django/dj00/urls.py' (User Action)
+2013-06-06 17:28:15: Save State File /Users/mbp/Dropbox/dev/dj00/_gsdata_/_file_state_v4._gs
+2013-06-06 17:28:16: Save State File sftp://192.168.4.112/var/www/django/dj00/_gsdata_/_file_state_v4._gs
+2013-06-06 17:28:16: Items Synced OK: 32, Errors: 0
+2013-06-06 17:28:16: ===== Sync Completed. Time: 00:00:05, Speed: 33K/s (35K/s) =====
+2013-06-06 17:28:16: 

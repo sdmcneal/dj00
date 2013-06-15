@@ -1,0 +1,47 @@
+2013-06-06 17:23:35: ----- Job 'New Job': ANALYSIS started by User on computer 'McNeal's MacBook Pro' (GoodSync 3.7.0.0 x86_64 on MacOS Version 10.8.3 (Build 12D78)) -----
+2013-06-06 17:23:35: New Job: /Users/mbp/Dropbox/dev/dj00 <-> sftp://192.168.4.112/var/www/django/dj00, SavePrevVers, CleanupPrevVers=30d, CleanupOldGens=24m, TmpDest, EstReq, CopyLocked, NoWaitForLocks, DetectMovesAndRenames, DetectFolderMoves, FileLinksDrill, Reconnect=3, ChangeLimit=10
+2013-06-06 17:23:35: Exclude Hidden, Exclude System, Include *.py|*.html|*.jpg Exclude /Album Artwork|licens*.rfo|cache.rfo|mru.rfo|mpp*.rfo|RoboForm Online Account.rfp|name *._gstmp|/System Volume Information|Thumbs.db|.DS_Store 
+2013-06-06 17:23:35: Left: Reading State File /Users/mbp/Dropbox/dev/dj00/_gsdata_/_file_state._gs
+2013-06-06 17:23:35: Left: State file does not exist: /Users/mbp/Dropbox/dev/dj00/_gsdata_/_file_state._gs
+2013-06-06 17:23:35: Left: No State File found, New State will be built
+2013-06-06 17:23:35: Left: Files: 26 (excluded 26). Folders: 8 (excluded 0). /dev/disk1 HFS, Free: 78712M, Total: 238878M
+2013-06-06 17:23:35: Right: Reading State File sftp://192.168.4.112/var/www/django/dj00/_gsdata_/_file_state._gs
+2013-06-06 17:23:35: Right: State file does not exist: sftp://192.168.4.112/var/www/django/dj00/_gsdata_/_file_state._gs
+2013-06-06 17:23:35: Right: No State File found, New State will be built
+2013-06-06 17:23:35: Right: Files: 26 (excluded 26). Folders: 8 (excluded 0). SSH-2.0-OpenSSH_6.1p1 Debian-4
+2013-06-06 17:23:35: Two-side filters excluded 9 items
+2013-06-06 17:23:35: /dj00/__init__.py: Conflict: New files that differ
+2013-06-06 17:23:35: /dj00/settings.py: Conflict: New files that differ
+2013-06-06 17:23:35: /dj00/urls.py: Conflict: New files that differ
+2013-06-06 17:23:35: /dj00/views.py: Conflict: New files that differ
+2013-06-06 17:23:35: /dj00/wsgi.py: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/__init__.py: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/form.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/models.py: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195307_1070.jpg: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310195807_1071.jpg: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200307_1072.jpg: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/static/gps/000DC5DA6B83(first-floor)_0_20130310200807_1073.jpg: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/static/gps/image.jpg: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/templates/gps/404.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/templates/gps/bingmaps.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/templates/gps/cc.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/templates/gps/console.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/templates/gps/index.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/templates/gps/login.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/templates/gps/map.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/templates/gps/test.html: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/tests.py: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/urls.py: Conflict: New files that differ
+2013-06-06 17:23:35: /gps/views.py: Conflict: New files that differ
+2013-06-06 17:23:35: /manage.py: Conflict: New files that differ
+2013-06-06 17:23:35: /urls.py: Conflict: New files that differ
+2013-06-06 17:23:35: On disk file:// space required for sync is 0, you have 78712M
+2013-06-06 17:23:35: On disk sftp://192.168.4.112 space required for sync is 0, you have 9223372036854M
+2013-06-06 17:23:35: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2013-06-06 17:23:35: Changes: 26, Conflicts: 26, CopyTime: 0, CopyState: 0/6, Errors: 0
+2013-06-06 17:23:35: ----- Analysis Completed. Time 00:00:03, Speed: 20 files/s -----
+2013-06-06 17:23:35: 
+2013-06-06 17:25:08: Cannot create GoodSync State Folder _gsdata_ on Right: cannot create folder: permission denied
+If this is a read-only folder then set this job to 1-way Forced ReadOnlySource in Job -> Options
+2013-06-06 17:25:08: 

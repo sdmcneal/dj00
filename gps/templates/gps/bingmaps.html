@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script charset="UTF-8" type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0">
+</script>
+
+<script type="text/javascript">
+   function GetMap()
+   {
+	   var map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), 
+                           {credentials: "AkRBYXVX6t6y4-hBSlFiukAmH2TyKH_kDX1I92_nAj814mZkSUYuDJ8gP9BdXwXv",
+                            center: new Microsoft.Maps.Location(45.5, -122.5),
+                            mapTypeId: Microsoft.Maps.MapTypeId.road,
+                            zoom: 7});
+		// Define the pushpin location
+            var loc = new Microsoft.Maps.Location(47.592, -122.332);
+            
+            // Add a pin to the map
+            var pin = new Microsoft.Maps.Pushpin(loc); 
+            map.entities.push(pin);
+
+            // Center the map on the location
+            
+			{% for track in tracks %}
+					
+						loc = new Microsoft.Maps.Location({{ track.latitude }},{{ track.longitude }});
+						map.entities.push(new Microsoft.Maps.Pushpin(loc));
+						
+				{% endfor %}
+				map.setView({center: loc, zoom: 15});
+   }
+</script>
+<title>Bing Map</title>
+</head>
+
+<body onload="GetMap();">
+
+<div id='mapDiv' style="position:absolute; width:100%; height:100%;"></div>
+<p>elapsed={{ elapsed }}</p>
+</body>
+</html>

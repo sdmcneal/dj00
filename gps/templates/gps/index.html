@@ -1,0 +1,15 @@
+<html>
+<title>Show the entry form</title>
+<body>
+<p> Here's the form </p>
+<form method="post" action="">
+    {{ formset.management_form }}
+    <table>
+        {% for form in formset %}
+        {{ form }}
+        {% endfor %}
+    </table>
+</form>
+
+</body>
+</html>

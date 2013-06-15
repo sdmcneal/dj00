@@ -1,0 +1,18 @@
+2013-06-08 23:26:51: -- Public GPS App to Tiger: ANALYSIS started by User on 'EIGHT' (GoodSync 9.4.9.9)
+2013-06-08 23:26:51: ~Scott\Dropbox\dev\dj00 (C:\Users\Scott\Dropbox\dev\dj00) =PropDels=> sftp://tiger/var/www/django/dj00
+2013-06-08 23:26:51: L: Files: 40 (excluded 15). Folders: 8 (excluded 1). C: NTFS, Free: 53.5 GB, Total: 176 GB
+2013-06-08 23:26:52: R: Files: 41 (excluded 15). Folders: 8 (excluded 1). SSH-2.0-OpenSSH_6.1p1 Debian-4
+2013-06-08 23:26:52: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2013-06-08 23:26:52: Left to Right: Copy File: 2 Delete File: 1 
+2013-06-08 23:26:52: -- Analysis Completed. Time 00:00:03, Speed: 21 files/s
+2013-06-08 23:26:52: 
+2013-06-08 23:27:18: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /settings.py
+2013-06-08 23:27:18: Done.
+2013-06-08 23:27:31: == Public GPS App to Tiger: SYNC started by User on 'EIGHT'
+2013-06-08 23:27:31: ~Scott\Dropbox\dev\dj00 (C:\Users\Scott\Dropbox\dev\dj00) =PropDels=> sftp://tiger/var/www/django/dj00
+2013-06-08 23:27:31: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\distances.html' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/distances.html'
+2013-06-08 23:27:31: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\views.py' -> 'sftp://tiger/var/www/django/dj00/gps/views.py'
+2013-06-08 23:27:31: Save State File sftp://tiger/var/www/django/dj00/_gsdata_/_file_state_v4._gs
+2013-06-08 23:27:31: Items Synced OK: 2, Errors: 0
+2013-06-08 23:27:31: == Sync Completed. Time: 00:00:02, Speed: 6.13 KB/s (648 KB/s)
+2013-06-08 23:27:31: 

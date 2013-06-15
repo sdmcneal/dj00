@@ -1,0 +1,46 @@
+2013-06-08 17:07:15: -- Public GPS App to Tiger: ANALYSIS started by User on 'EIGHT' (GoodSync 9.4.9.9)
+2013-06-08 17:07:15: ~Scott\Dropbox\dev\dj00 (C:\Users\Scott\Dropbox\dev\dj00) =PropDels=> sftp://tiger/var/www/django/dj00
+2013-06-08 17:07:15: L: Files: 41 (excluded 14). Folders: 8 (excluded 1). C: NTFS, Free: 53.6 GB, Total: 176 GB
+2013-06-08 17:07:15: R: Files: 38 (excluded 14). Folders: 8 (excluded 1). SSH-2.0-OpenSSH_6.1p1 Debian-4
+2013-06-08 17:07:15: /.project: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /.pydevproject: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /dj00/settings.py: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/#urls.py#: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/static/gps/jquery-2.0.1.js: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/templates/gps/jquery-mobile/images/ajax-loader.png: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/templates/gps/jquery-mobile/images/icons-18-black.png: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/templates/gps/jquery-mobile/images/icons-18-white.png: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/templates/gps/jquery-mobile/images/icons-36-black.png: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/templates/gps/jquery-mobile/images/icons-36-white.png: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/templates/gps/jquery-mobile/jquery-1.6.4.min.js: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/templates/gps/jquery-mobile/jquery.mobile-1.0.min.js: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: /gps/templates/gps/jquery-mobile/jquery.mobile.structure-1.0.min.css: Warning: Older file to replace Newer file
+2013-06-08 17:07:15: Changes: 19, Conflicts: 0, CopyTime: 0, CopyState: 0/2, Errors: 0
+2013-06-08 17:07:15: Left to Right: Copy File: 19 
+2013-06-08 17:07:15: -- Analysis Completed. Time 00:00:02, Speed: 32 files/s
+2013-06-08 17:07:15: 
+2013-06-08 17:08:35: == Public GPS App to Tiger: SYNC started by User on 'EIGHT'
+2013-06-08 17:08:35: ~Scott\Dropbox\dev\dj00 (C:\Users\Scott\Dropbox\dev\dj00) =PropDels=> sftp://tiger/var/www/django/dj00
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\.project' -> 'sftp://tiger/var/www/django/dj00/.project'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\.pydevproject' -> 'sftp://tiger/var/www/django/dj00/.pydevproject'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\dj00\settings.py' -> 'sftp://tiger/var/www/django/dj00/dj00/settings.py'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\#urls.py#' -> 'sftp://tiger/var/www/django/dj00/gps/#urls.py#'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\models.py' -> 'sftp://tiger/var/www/django/dj00/gps/models.py'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\static\gps\jquery-2.0.1.js' -> 'sftp://tiger/var/www/django/dj00/gps/static/gps/jquery-2.0.1.js'
+2013-06-08 17:08:35: Copy New 'C:\Users\Scott\Dropbox\dev\dj00\gps\static\gps\modern.css' -> 'sftp://tiger/var/www/django/dj00/gps/static/gps/modern.css'
+2013-06-08 17:08:35: Copy New 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\distances.html' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/distances.html'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\jquery-mobile\images\ajax-loader.png' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/jquery-mobile/images/ajax-loader.png'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\jquery-mobile\images\icons-18-black.png' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/jquery-mobile/images/icons-18-black.png'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\jquery-mobile\images\icons-18-white.png' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/jquery-mobile/images/icons-18-white.png'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\jquery-mobile\images\icons-36-black.png' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/jquery-mobile/images/icons-36-black.png'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\jquery-mobile\images\icons-36-white.png' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/jquery-mobile/images/icons-36-white.png'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\jquery-mobile\jquery-1.6.4.min.js' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/jquery-mobile/jquery-1.6.4.min.js'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\jquery-mobile\jquery.mobile-1.0.min.js' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/jquery-mobile/jquery.mobile-1.0.min.js'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\jquery-mobile\jquery.mobile.structure-1.0.min.css' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/jquery-mobile/jquery.mobile.structure-1.0.min.css'
+2013-06-08 17:08:35: Copy New 'C:\Users\Scott\Dropbox\dev\dj00\gps\templates\gps\place_form.html' -> 'sftp://tiger/var/www/django/dj00/gps/templates/gps/place_form.html'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\urls.py' -> 'sftp://tiger/var/www/django/dj00/gps/urls.py'
+2013-06-08 17:08:35: Copy Over 'C:\Users\Scott\Dropbox\dev\dj00\gps\views.py' -> 'sftp://tiger/var/www/django/dj00/gps/views.py'
+2013-06-08 17:08:35: Save State File sftp://tiger/var/www/django/dj00/_gsdata_/_file_state_v4._gs
+2013-06-08 17:08:35: Items Synced OK: 21, Errors: 0
+2013-06-08 17:08:35: == Sync Completed. Time: 00:00:03, Speed: 228 KB/s (716 KB/s)
+2013-06-08 17:08:35: 
